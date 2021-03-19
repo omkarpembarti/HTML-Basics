@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Basics</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 3px solid rgb(52, 15, 216);
+            border-collapse: collapse;
+        }
+        
+        .table {
+            background-color: rgb(228, 22, 22);
+            width: fit-content;
+            text-align: center;
+            color: black;
+        }
+        
+        #form {
+            color: yellowgreen;
+        }
+    </style>
 </head>
 
 <body>
-    <p>Hello World</p>
+    <button onclick="alert('Hello')">Click me</button>
+    <p>This is my first static webpage</p>
+    <div class="table">
+        <table>
+            <tr>
+                <th>Column 1</th>
+                <th>Column 2</th>
+                <th>Column 3</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>omkar</td>
+                <td>pembarti</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Dimpal</td>
+                <td>pembarti</td>
+            </tr>
+        </table>
+    </div>
+
+    <form id='form'>
+        <label>Enter your name</label>
+        <input type="text">
+        </br>
+        <label>Enter your password</label>
+        <input type="password">
+    </form>
+    </br>
+    <input type="submit" onclick="alert('Hello')">
+    </form>
 </body>
 
 </html>
